@@ -1,3 +1,5 @@
+var nums = [2,7,4,3]
+var target = 9;
 
 var twoSum = function(nums, target) {
 
@@ -14,3 +16,4 @@ var twoSum = function(nums, target) {
     }
     return
 };
+console.log(twoSum(nums, target))
